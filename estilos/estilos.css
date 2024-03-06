@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar-brand img{
+    height: 55px;
+    padding: 10px;
+}
+
+
+.jumbotron{
+    height: 550px;
+    background-image: url(/multimedia/fotoinicio.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow-wrap: break-word;
+    
+}
+
+
+
+.jumbotron h1{
+    text-align: center;
+    font-size: 50px;
+ 
+}
+.jumbotron h3{
+    text-align: center;
+    margin-top: 30px;
+}
+.jumbotron p{
+    text-align: center;
+  margin-top: 40px;
+  font-size: 25px;
+  color: white;
+   
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: auto;
+    width: auto;
+}
+
+footer li a{
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+    
+  
+
+}
+footer ul li{
+    list-style-type: none;
+    text-align: center;
+}
+
+.redes a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 30px;
+
+}
+
+
+@media (max-width: 320px) {
+    .jumbotron {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    .jumbotron {
+        padding: 30px;
+        font-size: 18px;
+    }
+}
